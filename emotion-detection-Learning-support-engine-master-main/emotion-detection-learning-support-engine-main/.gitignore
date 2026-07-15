@@ -1,0 +1,92 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# Build Files
+# ==========================
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# Python Cache
+# ==========================
+.pytest_cache/
+.mypy_cache/
+
+# ==========================
+# Model Checkpoints
+# ==========================
+runs/
+outputs/
+
+# ==========================
+# Large AI Models
+# ==========================
+models/bltsm/*.h5
+
+models/bert_emotion_model_final/model.safetensors
+models/bert_emotion_model_final/pytorch_model.bin
+models/bert_emotion_model_final/tf_model.h5
+
+# ==========================
+# TensorBoard
+# ==========================
+events.out.tfevents.*
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.bak
+*.swp
+
+# ==========================
+# Google Colab / Kaggle
+# ==========================
+content/
+kaggle/
+
+# ==========================
+# Keep Folder Structure
+# ==========================
+!models/.gitkeep
+!models/bltsm/.gitkeep
+!models/bert_emotion_model_final/.gitkeep
